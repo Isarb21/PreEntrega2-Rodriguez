@@ -1,0 +1,189 @@
+* {
+  margin: 0px;
+  padding: 0;
+}
+
+.header_box {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+
+  margin: 1%;
+  padding: 2%;
+  color: rgb(33, 33, 100);
+}
+
+.introduction_box {
+  color: rgb(255, 255, 255);
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 18%;
+  padding-left: 18%;
+  background-color: rgb(33, 33, 100);
+}
+
+.section_a_box {
+  background-color: rgb(230, 245, 255);
+  color: rgb(36, 36, 36);
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 18%;
+  padding-right: 18%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image_a {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.section_b_box {
+  background-color: rgb(33, 33, 100);
+  color: white;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-left: 18%;
+  padding-right: 18%;
+}
+
+.image_c {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.section_c_box {
+  background-color: rgb(230, 245, 255);
+  color: rgb(36, 36, 36);
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 18%;
+  padding-right: 18%;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 200%;
+  margin-right: 750px;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+body {
+  text-align: left;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 270%;
+  margin-bottom: 10px;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+h3 {
+  font-size: 200%;
+  text-align: left;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+h4 {
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  font-size: 120%;
+}
+
+span {
+  text-align: right;
+  display: inline-block;
+  font-family: "Libre Franklin", sans-serif;
+  margin-left: 15px;
+  font-size: 105%;
+}
+
+h6 {
+  text-align: left;
+  display: inline-block;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 105%;
+  font-weight: 200;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.foto_paisaje1 {
+  max-width: 60%;
+  margin-bottom: 10px;
+}
+
+.foto_paisaje2 {
+  max-width: 60%;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 100%;
+  font-weight: 200;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 20px;
+}
+
+.img_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.img_comunication {
+  width: 600px;
+  height: 500px;
+}
+
+.img_product {
+  width: 600px;
+  height: 380px;
+}
+
+.img_project {
+  width: 600px;
+  height: 500px;
+}
+
+.img_footer {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+
+.footer_box {
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(0, 0, 55);
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.title_box {
+  color: rgb(255, 255, 255);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 300px;
+  padding-left: 300px;
+  background-color: rgb(33, 33, 100);
+}
+
+.form_box {
+  background-color: rgb(230, 245, 255);
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  color: rgb(36, 36, 36);
+  font-family: "Libre Franklin", sans-serif;
+}
