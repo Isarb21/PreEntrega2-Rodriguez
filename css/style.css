@@ -13,7 +13,7 @@
 
 .header__box {
   grid-area: header;
-  justify-content: left;
+  justify-content: center;
   align-content: center;
   background-color: rgb(255, 255, 255);
   color: rgb(33, 33, 100);
@@ -73,23 +73,32 @@
   padding-bottom: 6%;
   padding-left: 18%;
   padding-right: 18%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .section_c_box {
   background-color: rgb(230, 245, 255);
   color: rgb(36, 36, 36);
   padding-top: 3%;
-  padding-bottom: 3%;
   padding-left: 18%;
   padding-right: 18%;
   display: flex;
   flex-wrap: wrap;
 }
+.section_c_description {
+  text-align: left;
+  background-color: rgb(230, 245, 255);
+  color: rgb(36, 36, 36);
+  padding-bottom: 3%;
+  padding-left: 18%;
+  padding-right: 18%;
+}
 
 /*ASPECTOS GENERALES*/
 
 h1 {
-  font-size: 200%;
+  font-size: 150%;
 }
 
 body {
@@ -98,13 +107,13 @@ body {
 
 h2 {
   font-weight: 800;
-  font-size: 270%;
+  font-size: 140%;
   margin-bottom: 10px;
   font-family: "Libre Franklin", sans-serif;
 }
 
 h3 {
-  font-size: 200%;
+  font-size: 140%;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
   margin-bottom: 15px;
@@ -120,12 +129,12 @@ h4 {
 span {
   text-align: right;
   margin-left: 15px;
-  font-size: 105%;
+  font-size: 100%;
 }
 
 h6 {
   font-family: "Libre Franklin", sans-serif;
-  font-size: 105%;
+  font-size: 75%;
   font-weight: 200;
   margin-left: 10px;
   margin-bottom: 15px;
@@ -133,7 +142,7 @@ h6 {
 }
 
 p {
-  font-size: 100%;
+  font-size: 80%;
   font-weight: 200;
   font-family: "Nunito", sans-serif;
   margin-bottom: 20px;
@@ -215,5 +224,58 @@ p {
     flex-direction: row;
     gap: 3rem;
     flex-wrap: nowrap;
+  }
+
+  .section_b_box {
+    flex-direction: row;
+    gap: 3rem;
+    flex-wrap: nowrap;
+  }
+  .section_c_description {
+    text-align: right;
+    padding-left: 50%;
+  }
+
+  .navbar-elem {
+    margin-left: 10px;
+  }
+
+  .footer__box {
+    align-items: baseline;
+    padding-left: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 200%;
+  }
+
+  h2 {
+    font-weight: 800;
+    font-size: 270%;
+  }
+
+  h3 {
+    font-size: 200%;
+  }
+
+  h4 {
+    font-size: 120%;
+  }
+
+  span {
+    font-size: 105%;
+  }
+
+  h6 {
+    font-size: 105%;
+  }
+
+  p {
+    font-size: 100%;
+  }
+  .navbar-elem {
+    margin-left: 100px;
   }
 }
