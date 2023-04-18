@@ -44,7 +44,7 @@
   font-weight: 500;
 }
 
-/*CARACTERIZANDO LAS SECCIONES DEL MAIN*/
+/*CARACTERIZANDO LAS SECCIONES DEL MAIN LANDING PAGE*/
 
 .introduction_box {
   color: rgb(255, 255, 255);
@@ -123,7 +123,7 @@ h4 {
   text-align: left;
   font-family: "Nunito", sans-serif;
   font-weight: 300;
-  font-size: 120%;
+  font-size: 90%;
 }
 
 span {
@@ -160,26 +160,16 @@ p {
   margin-bottom: 10px;
 }
 
-.img_box {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
 .img_comunication {
-  width: 600px;
-  height: 500px;
+  max-width: 80%;
 }
 
 .img_product {
-  width: 600px;
-  height: 380px;
+  max-width: 80%;
 }
 
 .img_project {
-  width: 600px;
-  height: 500px;
+  max-width: 80%;
 }
 
 .img_footer {
@@ -194,11 +184,22 @@ p {
 
 .title_box {
   color: rgb(255, 255, 255);
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-right: 300px;
-  padding-left: 300px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 18%;
+  padding-left: 12%;
   background-color: rgb(33, 33, 100);
+}
+
+.img_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .form_box {
@@ -237,23 +238,40 @@ p {
   }
 
   .navbar-elem {
-    margin-left: 10px;
+    margin-left: 5px;
   }
 
   .footer__box {
     align-items: baseline;
     padding-left: 50%;
   }
+
+  .img_box {
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .img_comunication {
+    max-width: 40%;
+  }
+
+  .img_product {
+    max-width: 40%;
+  }
+
+  .img_project {
+    max-width: 40%;
+  }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   h1 {
     font-size: 200%;
   }
 
   h2 {
     font-weight: 800;
-    font-size: 270%;
+    font-size: 300%;
   }
 
   h3 {
@@ -261,7 +279,7 @@ p {
   }
 
   h4 {
-    font-size: 120%;
+    font-size: 140%;
   }
 
   span {
@@ -276,6 +294,6 @@ p {
     font-size: 100%;
   }
   .navbar-elem {
-    margin-left: 100px;
+    margin-left: 80px;
   }
 }
