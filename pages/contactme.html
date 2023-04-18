@@ -64,16 +64,17 @@
         </div>
       </nav>
     </header>
-    <div class="title_box">
-      <h2>CONTACT</h2>
-      <h2>ME</h2>
-    </div>
+
     <main>
+      <div class="title_box">
+        <h2>CONTACT</h2>
+        <h2>ME</h2>
+      </div>
       <div class="form_box">
-        <section>
-          <form action="">
-            <fieldset>
-              <legend><h3>Contact</h3></legend>
+        <form action="">
+          <fieldset class="form_elements">
+            <legend><h3>Contact</h3></legend>
+            <div class="nombre">
               <div>
                 <label for="name"><h4>Name:</h4></label>
                 <input type="text" name="name" />
@@ -82,35 +83,45 @@
                 <label for="last-name"><h4>Last name:</h4></label>
                 <input type="text" name="last-name" />
               </div>
+            </div>
+            <div>
               <label for="gender"><h4>Gender:</h4></label>
-              <label for="male"><h6>Male</h6></label>
-              <input type="radio" name="Gender" value="Male" />
-              <label for="male"><h6>Female</h6></label>
-              <input type="radio" name="Gender" value="Female" />
-              <label for="male"><h6>Other</h6></label>
-              <input type="radio" name="Gender" value="Other" />
-              <div>
-                <label for="email"><h4>Email:</h4></label>
-                <input type="text" name="email" />
-              </div>
-              <div>
-                <label for="description"><h4>Description:</h4></label>
+              <div class="selection">
                 <div>
-                  <textarea
-                    name="description"
-                    id="description"
-                    cols="30"
-                    rows="10"
-                  ></textarea>
+                  <label for="male"><h6>Male</h6></label>
+                  <input type="radio" name="Gender" value="Male" />
                 </div>
                 <div>
-                  <input type="submit" value="Send" />
-                  <input type="reset" value="Reset" />
+                  <label for="female"><h6>Female</h6></label>
+                  <input type="radio" name="Gender" value="Female" />
+                </div>
+                <div>
+                  <label for="other"><h6>Other</h6></label>
+                  <input type="radio" name="Gender" value="Other" />
                 </div>
               </div>
-            </fieldset>
-          </form>
-        </section>
+            </div>
+            <div>
+              <label for="email"><h4>Email:</h4></label>
+              <input type="text" name="email" />
+            </div>
+            <div>
+              <label for="description"><h4>Description:</h4></label>
+              <div>
+                <textarea
+                  name="description"
+                  id="description"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+              <div>
+                <input type="submit" value="Send" />
+                <input type="reset" value="Reset" />
+              </div>
+            </div>
+          </fieldset>
+        </form>
       </div>
     </main>
     <footer>
